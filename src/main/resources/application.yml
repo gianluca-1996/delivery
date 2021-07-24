@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/BDBurgers
+    username: root
+    password: mercadolibremirzyortiz13251325
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        strategy: org.hibernate.cfg.ImprovedNaming.Strategy
+    properties:
+      dialect: org.hibernate.dialect.MySQL5Dialect
